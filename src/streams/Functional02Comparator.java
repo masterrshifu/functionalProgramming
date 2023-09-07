@@ -15,6 +15,8 @@ public class Functional02Comparator {
         // sorted on the basis of length of the string
         courses.stream().sorted(Comparator.comparing(str -> str.length())).forEach(System.out::println);
 
+
+
     }
 
 
